@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "auctiontracker",
+  "version": "1.0.0",
+  "name": "Auction Tracker",
+  "entrypoints": {
+    "client": [ "com.example.auction.AuctionTracker" ]
+  },
+  "mixins": [ "auctiontracker.mixins.json" ],
+  "depends": { "fabricloader": ">=0.15.11", "minecraft": "~1.21.8" }
+}

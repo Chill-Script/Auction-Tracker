@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "auctiontracker",
+  "version": "1.0.0",
+  "name": "Auction Tracker",
+  "description": "Automatically scans AH and tracks prices.",
+  "authors": [ "YourName" ],
+  "contact": { "sources": "https://github.com/example/repo" },
+  "license": "MIT",
+  "icon": "assets/auctiontracker/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.auction.AuctionTracker"
+    ]
+  },
+  "mixins": [
+    "auctiontracker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "java": ">=17"
+  }
+}
